@@ -45,7 +45,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:contentDescription="Edit todo"
                 android:padding="8dp"
-                android:tint="@color/pink1"
+                app:tint="@color/pink1"
                 android:src="@android:drawable/ic_menu_edit" />
 
             <ImageButton
@@ -55,7 +55,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:contentDescription="Delete todo"
                 android:padding="8dp"
-                android:tint="#FF5252"
+                app:tint="#FF5252"
                 android:src="@android:drawable/ic_menu_delete" />
 
         </LinearLayout>
